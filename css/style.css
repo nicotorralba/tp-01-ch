@@ -1,0 +1,602 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul, ol{
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+}
+
+figure{
+	margin: 0;
+}
+
+.main-header{
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.logo{
+	float: left;
+}
+
+.logo figcaption{
+	display: none;
+}
+
+.main-nav{
+	float: right;
+}
+
+.main-nav li{
+	float: left;
+	margin: 5px 0 0 15px;
+}
+
+.main-nav a{
+	text-decoration: none;
+	color: #222;
+	text-transform: uppercase;
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.cleaner{
+	clear: both;
+}
+
+/* Banner */
+
+#banner{
+	background: url(../images/indexbanner-bg3.jpg) center top no-repeat;
+	background-size: cover;
+}
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.banner-title{
+	font-size: 50px;
+	color: #fff;
+	padding-top: 150px;
+	margin: 0;
+}
+
+.banner-text{
+	font-size: 20px;
+	color: #cccccc;
+}
+
+.register{
+	background-color: #06B4F2;
+	position: relative;
+	top: 30px;
+}
+
+.register input{
+	width: 83%;
+	height: 60px;
+	font-size: 16px;
+	padding: 0 15px;
+	font-family: inherit;
+}
+
+.register button{
+	border: none;
+	background-color: #06B4F2;
+	width: 16%;
+	height: 60px;
+	color: #fff;
+	font-family: inherit;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* Productos */
+
+.producto{
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 8%;
+	padding: 0 15px;
+}
+
+.producto h4{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: inherit;
+}
+
+.producto p{
+	font-size: 13px;
+	font-family: inherit;
+}
+
+/* Services */
+
+.title-services{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 35px;
+	margin-bottom: 0;
+	
+}
+
+.text-services{
+	text-align: center;
+	margin: 0 0 80px;
+	font-size: 16px;
+	padding-top: 20px;
+	color: #999999;
+}
+
+.left-services{
+	width: 33.3%;
+	float: left;
+}
+
+.left-services li{
+	position: relative;
+	text-align: right;
+	padding-right: 60px;
+	margin-bottom: 10px;
+}
+
+.left-services img{
+	position: absolute;
+	right: -10px;
+	top: -10px;
+}
+
+.left-services h3{
+	text-transform: uppercase;
+	font-family: inherit;	
+}
+
+.left-services p{
+	font-family: inherit;
+}
+
+.right-services li{
+	position: relative;
+	padding-left: 60px;
+}
+
+.right-services img{
+	position: absolute;
+	left: -10px;
+	top: -10px;
+}
+
+.cellphone{
+	width: 33.3%;
+	text-align: center;
+	float: left;
+	padding: 0 15px;
+}
+
+.right-services{
+	width: 33.3%;
+	float: left;
+}
+
+.right-services h3{
+	text-transform: uppercase;
+	font-family: inherit;
+}
+
+.right-services p{
+	font-family: inherit;
+}
+
+/* Prices Table */
+
+.pricing-table{
+	background: url(../images/pricing-bg.jpg) center top no-repeat;
+	background-size: contain;
+	margin-top: -100px;
+}
+
+.pricing-table h3{
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	padding: 20px 0 0;
+}
+
+.pricing-table h3 + p{
+	text-align: center;
+}
+
+.price-table{
+	background-color: #fff;
+	box-shadow:
+		0 0 10px rgba(0,0,0,0.5)
+		/*-5px -5px 10px rgba(0,0,0,0.5) inset,
+		-5px -5px 10px red,
+		-10px -10px 10px green,
+		-15px -15px 10px orange*/
+		;
+	width: 22.5%;
+	padding: 30px;
+	float: left;
+	margin-top: 60px;
+	margin-right: 3.3%;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.price-table h4{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.price-table h2{
+	font-size: 50px;
+	margin: 0;
+}
+
+.price-table h2 sup{
+	font-size: 20px;
+	position: relative;
+	top: 5px;
+}
+
+.price-table p{
+	margin: 0 0 30px;
+}
+
+.price-table table{
+	width: 100%;
+}
+
+.price-table td{
+	padding: 5px;
+}
+
+.price-table a{
+	display: block;
+	background-color: #26ABF6;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.price-table:last-of-type{
+	margin-right: 0;
+}
+
+/* Footer */
+
+.main-footer{
+	background-color: #233042;
+	margin-top: 80px;
+}
+
+.main-footer h3{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	margin: 0;
+	padding: 60px 0;
+	font-weight: 300;
+}
+
+.main-footer h3 span{
+	color: #26ABF6;
+	font-weight: 700;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+
+.bg-dark{
+	background-color: #151D27;
+	padding: 30px 0;
+}
+
+.copyright{
+	float: left;
+	margin: 10px 0 0;
+	color: #fff;
+	font-weight: 100;
+}
+
+.footer-nav{
+	float: right;
+	margin-top: 10px;
+}
+
+.footer-nav li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.footer-nav a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 100;
+}
+
+/* Media Queries Index*/
+
+/* Medium */
+
+@media (max-width:800px){
+	.container, .main-header{
+		width: 95%;
+	}
+	.producto{
+		width: 50%;
+		margin-top: 80px;
+	}
+	.left-services, .cellphone, .right-services{
+		float: none;
+		width: 100%;
+	}
+	.pricing-table{
+		margin-top: 0;
+	}
+	.price-table{
+		width: 48%;
+		margin-right: 4%;
+	}
+	.price-table:nth-of-type(even){
+		margin-right: 0;
+	}
+	.price-table h4{
+		font-size: 14px;
+	}
+	.price-table table{
+		font-size: 12px;
+	}
+	.price-table a{
+		font-size: 12px;
+	}
+
+}
+
+/* Small */
+@media (max-width:700px){
+	
+	.logo{
+	float: none;
+	text-align: center;
+	}
+	.main-nav{
+	float: none;
+	}
+	.main-nav li{
+		float: none;
+		text-align: center;
+	}
+	#banner{
+		background-image: none;
+	}
+
+	.banner-title{
+		display: none;
+	}
+	.banner-text{
+		display: none;
+	}
+	.register{
+		top: 0;
+	}
+	.register input{
+		text-indent: 5;
+		font-size: 13px;
+		width: 75%;
+	}
+	.register button{
+		width: 20%;
+	}
+	.copyright{
+		float: none;
+		font-size: 13px;
+		text-align: center;
+	}
+	.footer-nav{
+		float: none;
+		padding-top: 0;
+		text-align: center;
+	}
+	.footer-nav li{
+		font-size: 10px;
+	}
+	.main-footer h3{
+		font-size: 20px;
+	}
+	.main-footer h3 span{
+		font-size: 30px;
+	}
+}
+
+
+
+/* XSmall */
+@media (max-width:420px){
+
+	.register input{
+		font-size: 11px;
+		padding: 0;
+		width: 75%;
+	}
+	.register button{
+		width: 20%;
+	}
+	.producto{
+		margin-top: 50px;
+		width: 100%;
+	}
+	.price-table h3{
+		font-size: 5px;
+	}
+	.price-table h4{
+		font-size: 11px;
+	}
+	.price-table table {
+		font-size: 10px;
+	}
+	.price-table a{
+		padding: 5px;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+}
+
+/* contact */
+
+.banner-title-contact{
+	font-size: 50px;
+	color: #fff;
+	padding-top: 100px;
+	margin: 0;
+}
+.banner-text-contact{
+	font-size: 20px;
+	color: #cccccc;
+	padding-bottom: 100px;
+}
+#banner-contact{
+	background: url(../images/indexbanner-bg2.jpg) center top no-repeat;
+	background: cover;
+	margin-top: 15px;
+}
+.submit-title{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+.submit-text{
+	text-align: center;
+}
+
+.register-contact{
+	width: 100%;
+	bottom: 50px;
+	position: relative;
+	top: 30px;
+}
+
+#left{
+	width: 50%;
+	float: left;
+}
+
+#right{
+	width: 50%;
+	float: right;
+}
+
+#left input{
+	border:solid 1px grey;
+	width: 95%;
+	height: 50px;
+	font-size: 13px;
+	font-family: inherit;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin: 0 2.5% 10px 2.5%;
+	float: left;
+}
+
+#right textarea{
+	border:solid 1px grey;
+	width: 95%;
+	height: 170px;
+	font-size: 13px;
+	font-family: inherit;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin: 0 2.5%;
+	float: right;
+	padding-bottom: 120px;
+}
+
+
+#submit-button{
+	text-align: center;
+	margin-top: 20px;
+	clear: both;
+}
+
+.button-text{
+	text-align: center;
+	border: none;
+	text-transform: uppercase;
+	width: 20%;
+	height: 40px;
+	color: #fff;
+	background-color: #26ABF6;
+	font-size: 8px;
+	font-family: inherit;
+	letter-spacing: 2px;
+	border-radius: 5px;
+}
+
+/* Media Queries Contact*/
+
+
+/* Small */
+
+@media (max-width: 700px){
+    #banner-contact{
+        background-image: none;
+        height: 120px;
+    }
+
+    .banner-text-contact{
+    	display: none;
+    }
+
+    .submit-title{
+        margin: 0;
+        top: -30px;
+    }
+    #left{
+        width: 100%;
+        float: none;
+    }
+    #right{
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/* XSmall */
+
+@media (max-width: 420px){
+    .button-text{
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+}
+
+
+
